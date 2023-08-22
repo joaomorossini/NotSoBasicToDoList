@@ -1,0 +1,77 @@
+.taskPending {
+	cursor: pointer;
+	font-family: monospace;
+
+}
+
+
+.taskDone {
+	cursor: pointer;
+	font-family: monospace;
+	text-decoration: line-through;
+}
+
+.darkTheme {
+	background-color: #333333;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: monospace;
+}
+
+
+#mainDiv , #secondDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.input {
+	width: 200px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.input2 {
+	width: 200px;
+	margin-right: 76px;
+	margin-left: 76px;
+	font-family: monospace;
+
+}
+
+.input1 {
+	width: 200px;
+	margin-left: 35px;
+	font-family: monospace;
+
+}
+
+#userInput {
+	width: 510px;
+	font-family: monospace;
+
+}
+
+#thirdDiv {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	background-color: #999999;
+	
+}
+
+.newDiv2 {
+	width: auto;
+	padding: 5px;
+	display: inline-block;
+	align-self: flex-end;
+}
+
+.newDiv1 {
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
